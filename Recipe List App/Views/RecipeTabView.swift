@@ -17,7 +17,7 @@ struct RecipeTabView: View {
                     Text("Featured")
                 }
             
-            ContentView()
+            RecipeListView()
                 .tabItem {
                     Image(systemName: "list.bullet")
                     Text("List")
